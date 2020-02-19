@@ -1,0 +1,213 @@
+<html>
+<head>
+    <title>STUDIO AFTERGLOW - niepoprawne studio kreatywne</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+        <meta name="Description" content="Strony internetowe i usługi graficzne">
+        <meta property="og:image" content="mini-webdesign.png">
+
+</head>
+<body>
+    <header>
+        <div class="image-main websites-image">
+        <div class="main-menu">
+            <div class="hamburger-button" id="menu-button" >
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="https://studio-afterglow.github.io/main">Strona główna</a></li>
+                <li><a href="https://studio-afterglow.github.io/main/oferta">Oferta</a></li>
+                <li><a href="https://studio-afterglow.github.io/main/realizacje">Realizacje</a></li>
+                <li><a href="https://studio-afterglow.github.io/main/kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+            
+        </div>
+        <h1>Realizacje</h1>
+    </header>
+    
+    <div class="realization-menu">
+        <hr class="upper" />
+        <a onclick="anchorRealizations(this)" id="all">Wszystko</a>
+        <a class="realization-menu-link" onclick="anchorRealizations(this)" id="websites">Strony internetowe</a>
+        <a class="realization-menu-link"  onclick="anchorRealizations(this)" id="ecommerce">Sklepy internetowe</a>
+        <a class="realization-menu-link" onclick="anchorRealizations(this)" id="graphics">Grafika</a>
+        <a class="realization-menu-link" onclick="anchorRealizations(this)" id="logo">Projekty logo</a>
+        <hr class="down" />
+    </div>
+    
+    <div class="realization-grid double-grid active" id="all-div">
+        
+        <div class="card" >
+        <div class="inner">
+            <div class="front ezo">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/ezo';">
+                <h2>Butik EZO</h2>
+                <h3>grafika, webdesign</h3>
+                <hr />
+                <p>Sklep internetowy oraz grafiki do druku</p>
+                </div>
+        </div>
+        </div>
+        <div class="card" >
+        <div class="inner">
+            <div class="front cleanpol">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/cleanpol';">
+                <h2>Cleanpol</h2>
+                <h3>webdesign, grafika</h3>
+                <hr />
+                <p>Strona internetowa oraz projekt logo</p>
+                </div>
+        </div>
+        </div>
+        <div class="card" >
+        <div class="inner">
+            <div class="front dranns">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/dranns';">
+                <h2>Dr Ann's</h2>
+                <h3>grafika, webdesign</h3>
+                <hr />
+                <p>Realizacje graficzne oraz skórka sklepu internetowego</p>
+                </div>
+        </div>
+        </div>
+        <div class="card" >
+        <div class="inner">
+            <div class="front mstal">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/mstal';">
+                <h2>M-stal</h2>
+                <h3>grafika</h3>
+                <hr />
+                <p>Projekt logo</p>
+                </div>
+        </div>
+        </div>
+        
+    </div>
+    <div class="realization-grid double-grid" id="websites-div">
+        
+        
+        <div class="card">
+        <div class="inner">
+            <div class="front cleanpol">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/cleanpol#website';">
+                <h2>Strona firmy Cleanpol</h2>
+                <h3>cleanpol.com.pl</h3>
+                <hr />
+                <p>Strona oparta o system WordPress</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="realization-grid double-grid" id="ecommerce-div">
+        <div class="card" >
+        <div class="inner">
+            <div class="front ezo">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/ezo#website';">
+                <h2>Sklep Internetowy</h2>
+                <h3>butikezo.pl</h3>
+                <hr />
+                <p>Sklep oparty na systemie WooCommerce</p>
+                </div>
+        </div>
+        </div>
+        <div class="card" >
+        <div class="inner">
+            <div class="front dranns">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/dranns#website';">
+                <h2>Sklep Internetowy</h2>
+                <h3>sklep.dranns.pl</h3>
+                <hr />
+                <p>Sklep oparty na systemie Shoper</p>
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="realization-grid double-grid" id="graphics-div">
+        <div class="card" >
+        <div class="inner">
+            <div class="front dranns">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/dranns#graphic';">
+                <h2>Dr Ann's</h2>
+                <hr />
+                <p>Grafiki do druku oraz bannery Google AdWords</p>
+                </div>
+        </div>
+        </div>
+        <div class="card" >
+        <div class="inner">
+            <div class="front ezo">
+            </div>
+            <div class="back" onclick="window.location='https://studio-afterglow.github.io/main/ezo#graphic';">
+                <h2>Butik EZO</h2>
+                <hr />
+                <p>Grafiki do druku</p>
+                </div>
+        </div>
+        </div>
+    </div>
+     <div class="realization-grid double-grid" id="logo-div">
+        <div class="card" >
+        <div class="inner">
+            <div class="front cleanpol">
+            </div>
+            <div class="back" onclick="window.location='#;">
+                <h2>Logo dla firmy Cleanpol</h2>
+                <hr />
+                </div>
+        </div> 
+        </div>
+         <div class="card" >
+        <div class="inner">
+            <div class="front ezo">
+            </div>
+            <div class="back" onclick="window.location='#;">
+                <h2>Logo dla butiku EZO</h2>
+                <hr />
+                </div>
+        </div>
+            
+        </div>
+         <div class="card" >
+        <div class="inner">
+            <div class="front mstal">
+            </div>
+            <div class="back" onclick="window.location='#;">
+                <h2>Logo dla firmy M-stal</h2>
+                <hr />
+                </div>
+        </div>
+            
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-div">
+            <h2>Kontakt</h2>
+            <p>Instagram : <a href="https://www.instagram.com/studio.afterglow/">@studio.afterglow</a></p>
+
+            <p>Facebook: <a href="https://www.facebook.com/studio.afterglow/">/studio.afterglow</a></p>
+
+                <p>E-mail: studio.afterglow@interia.pl</p>
+            <hr />
+            <p class="copyrights"> Copyright © 2020 Studio Afterglow </p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+        
+
+</html>

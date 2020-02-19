@@ -1,0 +1,60 @@
+window.onload=function(){
+let loadAnchor = location.hash;
+    let anchor = loadAnchor.slice(1);
+    let anchorDiv= anchor+"-div";
+    console.log(anchorDiv);
+    let activeDiv = document.getElementById(anchorDiv);
+    activeDiv.classList.toggle("active");
+    
+    let a=document.getElementById(anchor);
+    a.classList.toggle("active-link");
+}
+
+function myFunction(x) {
+    let menu = document.getElementById("menu-to-open"); 
+    let menuBg = document.getElementById("menu-bg");
+    x.classList.toggle("change");
+    menu.classList.toggle("appear");
+    menuBg.classList.toggle("menu-visible");
+    
+}
+
+function anchorRealizations(x) {
+    let anchor=x.id;
+    let divId= anchor+"-div";
+    
+    let divClass = document.getElementsByClassName("realization-grid");
+let i;
+for (i = 0; i < divClass.length; i++) {
+  divClass[i].classList.remove("active");
+} 
+    
+    let aClass = document.getElementsByClassName("realization-menu-link");
+let l;
+for (i = 0; i < aClass.length; i++) {
+  aClass[i].classList.remove("active-link");
+} 
+    
+    
+    let a=document.getElementById(anchor);
+    let div = document.getElementById(divId);
+    div.classList.toggle("active");
+    a.classList.toggle("active-link");
+}
+
+
+document.addEventListener('scroll',function(e){
+    let scroll = window.pageYOffset;
+    let p=document.getElementById("header-p");
+    
+    let logo=document.getElementById("logo");
+    let index1=document.getElementById("index1");
+    let index2=document.getElementById("index2");
+    
+    p.style.marginTop=1-scroll*0.2;
+    
+    logo.style.opacity=scroll*0.008-3.5;
+    
+    index1.style.opacity=scroll*0.008-6.2;
+    index2.style.opacity=scroll*0.008-9.5;
+});
