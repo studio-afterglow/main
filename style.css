@@ -719,6 +719,14 @@ main {
       padding-top: 3%;
       margin-top: 2%; } }
 @media screen and (max-width: 737px) {
+  .segment-right .realizations-background a h4 {
+    margin-left: 0;
+    text-align: left; }
+
+  .segment-left .realizations-background a h4 {
+    margin-right: 0;
+    text-align: right; }
+
   .realization-grid {
     grid-template-columns: 1fr;
     grid-gap: 1%; }
@@ -757,11 +765,14 @@ main {
   footer {
     padding-top: 15%; }
 
-  .offer-segment .realizations-background .realization-mini {
-    display: none; }
-
   .offer-segment .realizations-background .realizations {
-    margin-top: -10px; }
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+    .offer-segment .realizations-background .realizations a:last-of-type {
+      grid-row: 2/3;
+      grid-column: 1/4;
+      margin-top: 1em; }
 
   .presentation {
     display: flex;
@@ -834,6 +845,10 @@ main {
     line-height: 20px; } }
 @media screen and (max-width: 400px) {
   main h1 {
-    font-size: 40px; } }
+    font-size: 40px; }
+
+  .offer-segment .realizations-background .realization-mini {
+    height: 80px;
+    width: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
