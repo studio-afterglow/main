@@ -719,13 +719,18 @@ main {
       padding-top: 3%;
       margin-top: 2%; } }
 @media screen and (max-width: 737px) {
+  .offer-segment .realizations-background {
+    height: auto; }
+
   .segment-right .realizations-background a h4 {
     margin-left: 0;
-    text-align: left; }
+    text-align: left;
+    font-size: 35px; }
 
   .segment-left .realizations-background a h4 {
     margin-right: 0;
-    text-align: right; }
+    text-align: right;
+    font-size: 35px; }
 
   .realization-grid {
     grid-template-columns: 1fr;
