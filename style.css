@@ -54,6 +54,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.fade-in {
+  opacity: 0; }
+
+@keyframes fade-in-animation {
+  from {
+    filter: blur(5px);
+    opacity: 0; }
+  to {
+    filter: blur(0);
+    opacity: 1; } }
 html, body {
   margin: 0; }
 

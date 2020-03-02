@@ -43,18 +43,3 @@ for (i = 0; i < aClass.length; i++) {
 }
 
 
-document.addEventListener('scroll',function(e){
-    let scroll = window.pageYOffset;
-    let p=document.getElementById("header-p");
-    
-    let logo=document.getElementById("logo");
-    let index1=document.getElementById("index1");
-    let index2=document.getElementById("index2");
-    
-    p.style.marginTop=1-scroll*0.2;
-    
-    logo.style.opacity=scroll*0.008-3.5;
-    
-    index1.style.opacity=scroll*0.008-6.2;
-    index2.style.opacity=scroll*0.008-9.5;
-});
