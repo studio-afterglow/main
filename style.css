@@ -579,17 +579,23 @@ header h1 {
         color: white; }
 
 /* *** REALIZATIONS CLASSES *** */
+.szybka {
+  background-image: url(site-images/szybka-bg.jpg); }
+
+.szybka-logo {
+  background-image: url(site-images/szybka-okladka.jpg); }
+
 .cleanpol {
   background-image: url(site-images/clenpol-bg.png); }
 
 .cleanpol-logo {
-  background-image: url(site-images/clenpol-okladka.png); }
+  background-image: url(site-images/clenpol-okladka.jpg); }
 
 .ezo {
   background-image: url(site-images/ezo-bg.jpg); }
 
 .ezo-logo {
-  background-image: url(site-images/ezo-okladka.png); }
+  background-image: url(site-images/ezo-okladka.jpg); }
 
 .dranns {
   background-image: url(site-images/dranns-bg.jpg); }
