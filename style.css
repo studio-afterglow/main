@@ -582,8 +582,14 @@ header h1 {
 .cleanpol {
   background-image: url(site-images/clenpol-bg.png); }
 
+.cleanpol-logo {
+  background-image: url(site-images/clenpol-okladka.png); }
+
 .ezo {
   background-image: url(site-images/ezo-bg.jpg); }
+
+.ezo-logo {
+  background-image: url(site-images/ezo-okladka.png); }
 
 .dranns {
   background-image: url(site-images/dranns-bg.jpg); }
