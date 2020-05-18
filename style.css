@@ -579,6 +579,9 @@ header h1 {
         color: white; }
 
 /* *** REALIZATIONS CLASSES *** */
+.opony{
+   background-image: url(site-images/opony-bg.jpg);
+}
 .szybka {
   background-image: url(site-images/szybka-bg.jpg); }
 
