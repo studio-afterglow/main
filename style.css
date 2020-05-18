@@ -577,6 +577,12 @@ header h1 {
         font-size: 27px;
         line-height: 30px;
         color: white; }
+.screen{
+    display: block;
+    @include center;
+    max-height: 300vh;
+    margin-bottom: 2vh;
+}
 
 /* *** REALIZATIONS CLASSES *** */
 .opony{
