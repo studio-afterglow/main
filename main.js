@@ -2,7 +2,13 @@ window.onload=function(){
 let loadAnchor = location.hash;
     let anchor = loadAnchor.slice(1);
     let anchorDiv= anchor+"-div";
-    console.log(anchorDiv);
+    if(anchorDiv=="-div"){
+        console.log("all");
+        let a=document.getElementById("all");
+    let div = document.getElementById("all-div");
+    div.classList.toggle("active");
+    a.classList.toggle("active-link");
+    }
     let activeDiv = document.getElementById(anchorDiv);
     activeDiv.classList.toggle("active");
     
