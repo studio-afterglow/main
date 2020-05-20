@@ -121,7 +121,7 @@ img {
   margin-left: auto;
   margin-right: auto; }
   .double-grid div {
-    padding: 5%;
+    padding: 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -577,41 +577,19 @@ header h1 {
         font-size: 27px;
         line-height: 30px;
         color: white; }
-.screen{
-    display: block;
-   margin-left:auto;
-   margin-right:auto;
-    max-height: 300vh;
-    margin-bottom: 2vh;
-}
 
 /* *** REALIZATIONS CLASSES *** */
-.opony{
-   background-image: url(site-images/opony-bg.jpg);
-}
-.szybka {
-  background-image: url(site-images/szybka-bg.jpg); }
-
-.szybka-logo {
-  background-image: url(site-images/szybka-okladka.jpg); }
-
 .cleanpol {
   background-image: url(site-images/clenpol-bg.png); }
 
-.cleanpol-logo {
-  background-image: url(site-images/cleanpol-okladka.jpg); }
-
 .ezo {
   background-image: url(site-images/ezo-bg.jpg); }
-
-.ezo-logo {
-  background-image: url(site-images/ezo-okladka.jpg); }
 
 .dranns {
   background-image: url(site-images/dranns-bg.jpg); }
 
 .mstal {
-  background-image: url(site-images/mstal-okladka.jpg); }
+  background-image: url(site-images/mstal-bg.jpg); }
 
 .focal {
   background-image: url(site-images/focal-bg.png); }
@@ -627,6 +605,9 @@ header h1 {
 
 .mokka {
   background-image: url(site-images/mokka-bg.png); }
+
+.mstal {
+  background-image: url("site-images/logo_podstawowe_raster.jpg"); }
 
 /* *** SINGLE PAGE *** */
 main {
@@ -679,6 +660,13 @@ main {
       margin-left: auto;
       margin-right: auto; }
 
+.screen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 300vh;
+  margin-bottom: 2vh; }
+
 /* ****** MEDIA QUERIES ****** */
 @media (hover: none) {
   /* Not flip on touch */
@@ -721,7 +709,10 @@ main {
   .presentation div p {
     width: auto; }
   .presentation img {
-    width: 80%; } }
+    width: 80%; }
+
+  .card .inner .back h2 {
+    font-size: 30px; } }
 @media screen and (max-width: 970px) {
   .image-main {
     height: 300px; }
@@ -881,7 +872,10 @@ main {
 
   .header-image-main p {
     font-size: 18px;
-    line-height: 20px; } }
+    line-height: 20px; }
+
+  .realization-grid .card {
+    width: 90%; } }
 @media screen and (max-width: 400px) {
   main h1 {
     font-size: 40px; }
