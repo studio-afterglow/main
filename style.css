@@ -579,17 +579,32 @@ header h1 {
         color: white; }
 
 /* *** REALIZATIONS CLASSES *** */
+.opony{
+   background-image: url(site-images/opony-bg.jpg);
+}
+.szybka {
+  background-image: url(site-images/szybka-bg.jpg); }
+
+.szybka-logo {
+  background-image: url(site-images/szybka-okladka.jpg); }
+
 .cleanpol {
   background-image: url(site-images/clenpol-bg.png); }
 
+.cleanpol-logo {
+  background-image: url(site-images/cleanpol-okladka.jpg); }
+
 .ezo {
   background-image: url(site-images/ezo-bg.jpg); }
+
+.ezo-logo {
+  background-image: url(site-images/ezo-okladka.jpg); }
 
 .dranns {
   background-image: url(site-images/dranns-bg.jpg); }
 
 .mstal {
-  background-image: url(site-images/mstal-bg.jpg); }
+  background-image: url(site-images/mstal-okladka.jpg); }
 
 .focal {
   background-image: url(site-images/focal-bg.png); }
@@ -605,9 +620,6 @@ header h1 {
 
 .mokka {
   background-image: url(site-images/mokka-bg.png); }
-
-.mstal {
-  background-image: url("site-images/logo_podstawowe_raster.jpg"); }
 
 /* *** SINGLE PAGE *** */
 main {
