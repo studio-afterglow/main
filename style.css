@@ -897,3 +897,16 @@ main {
     width: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.double-grid ul{
+    list-style: disc;
+    width: 80%;
+    padding-left: 2em;
+font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 18px;
+}
+.double-grid ul li{
+    margin-bottom: 1.1em;
+}
