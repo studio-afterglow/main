@@ -910,3 +910,6 @@ font-family: "Lato", sans-serif;
 .double-grid ul li{
     margin-bottom: 1.1em;
 }
+.screen{
+   box-shadow: 10px 10px 10px #E8E8E8;
+}
